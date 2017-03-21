@@ -1,0 +1,87 @@
+/*
+* @Author: Administrator
+* @Date:   2017-03-21 16:14:43
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-03-21 17:32:31
+*/
+body{
+	font-family: 'MiFie-Website-Font' !important;
+}
+#header {
+
+}
+#header >.topbar{
+	border-bottom: 1px solid #ccc;
+}
+#header >.topbar >.container{
+
+}
+#header >.topbar >.container >div{
+	border-left: 1px solid #ccc;
+	height: 40px; 
+	font-size: 12px;
+	line-height: 40px;
+}
+#header >.topbar >.container >div>a{
+	color: #666;
+}
+#header >.topbar >.container >div:first-child{
+	border-left: 0;
+}
+#header >.topbar >.container >div>.btn-link{
+	color: #666;
+}
+
+/* bootstrap拓展样式 */
+.btn-register { 
+  color: #ffffff; 
+  background-color: #E92322; 
+  border-color: #E92322; 
+} 
+ 
+.btn-register:hover, 
+.btn-register:focus, 
+.btn-register:active, 
+.btn-register.active, 
+.open .dropdown-toggle.btn-register { 
+  color: #ffffff; 
+  background-color: #e92322; 
+  border-color: #E92322; 
+} 
+ 
+.btn-register:active, 
+.btn-register.active, 
+.open .dropdown-toggle.btn-register { 
+  background-image: none; 
+} 
+ 
+.btn-register.disabled, 
+.btn-register[disabled], 
+fieldset[disabled] .btn-register, 
+.btn-register.disabled:hover, 
+.btn-register[disabled]:hover, 
+fieldset[disabled] .btn-register:hover, 
+.btn-register.disabled:focus, 
+.btn-register[disabled]:focus, 
+fieldset[disabled] .btn-register:focus, 
+.btn-register.disabled:active, 
+.btn-register[disabled]:active, 
+fieldset[disabled] .btn-register:active, 
+.btn-register.disabled.active, 
+.btn-register[disabled].active, 
+fieldset[disabled] .btn-register.active { 
+  background-color: #E92322; 
+  border-color: #E92322; 
+} 
+ 
+.btn-register .badge { 
+  color: #E92322; 
+  background-color: #ffffff; 
+}
+
+
+
+
+
+
+
